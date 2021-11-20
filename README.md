@@ -5,7 +5,7 @@
 
 ### It includes login/signup features.
 
-### Engpoints : 
+### Endpoints : 
 ### 1. '/blogs' : displays all the blogs to the user 
 ### 2. '/blogs/new' : Authenticated user can create new blog
 ### 3. '/blogs/edit' : Authenticated user can edit the blog details 
