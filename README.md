@@ -12,4 +12,4 @@
 ### 4. '/blogs/delete' : Authenticated user can delete the blogs
 ### 5. '/register' : Form for signup 
 ### 6. '/login' : Form for login
-### 7. '/logout' : Form for logout
+### 7. '/logout' : user can logout
