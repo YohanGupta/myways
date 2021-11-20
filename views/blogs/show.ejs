@@ -1,0 +1,22 @@
+    <% layout('layouts/boilerplate') %> 
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <img src="<%=blog.image%>" class="card-img-top" alt="image">
+                <div class="card-body">
+                  <h1 class="card-title"><%=blog.title%> </h1>
+                  <p class="card-text"> <p>
+                    <%= blog.description %> </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item text-muted"><%=blog.date%></li>
+                </ul>
+                <div class="card-body">
+                  <a href="/blogs/<%=blog._id%>/edit" class="card-link btn btn-info">Edit Details</a>
+                  <form class = "d-inline" action="/blogs/<%=blog._id%>?_method=DELETE" method="POST">
+                    <button class="card-link btn btn-danger" type="submit">Delete</button>
+                  </form>
+                </div>
+              </div>
+        </div>
+    </div>
