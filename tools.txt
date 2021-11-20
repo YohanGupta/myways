@@ -13,3 +13,8 @@ Packages:
 "passport": "^0.5.0",
 "passport-local": "^1.0.0",
 "passport-local-mongoose": "^6.1.0",
+
+wQ0VhpaHJmR47Eze
+IsYZlmnEjsSM4WdV
+
+mongodb+srv://our-first-user:<password>@cluster0.uk0km.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
